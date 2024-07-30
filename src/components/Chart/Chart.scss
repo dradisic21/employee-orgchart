@@ -1,0 +1,25 @@
+.chart-container {
+  width: 100%;
+  max-width: 1920px;
+
+  .chart-title {
+    text-align: center;
+    color: rgb(76, 76, 76);
+  }
+
+  .card {
+    overflow-x: auto;
+    ul {
+      li {
+        .braxZu {
+          img {
+            width: 60px;
+            height: 60px;
+            border-radius: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}
